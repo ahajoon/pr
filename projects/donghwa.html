@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>동화 CNF · 든든한웹전문가 형준</title>
+<meta name="description" content="식품 제조 기업의 제품과 비전을 소개하는 기업 사이트">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="pf" style="background:#FFFFFF;color:#0F172A;font-size:16px;line-height:1.7">
+
+<header data-header style="position:sticky;top:0;z-index:30;background:#FFFFFF;border-bottom:1px solid #DBEAFE">
+  <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,3vw,24px);height:clamp(60px,5vw,72px);display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <a href="../index.html" aria-label="든든한웹전문가, 메인으로" style="display:inline-flex;align-items:center;min-height:44px;text-decoration:none;color:#0F172A">
+      <span style="font-weight:800;font-size:20px;letter-spacing:-0.02em">든든한웹전문가</span>
+    </a>
+    <span class="show-desk">
+      <nav aria-label="주 메뉴">
+        <ul style="display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0">
+          <li><a href="../index.html#about" class="pf-nav__link" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:500;color:#0F172A;text-decoration:none">소개</a></li>
+          <li><a href="../index.html#projects" class="pf-nav__link" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:500;color:#0F172A;text-decoration:none">프로젝트</a></li>
+          <li><a href="../index.html#all-projects" class="pf-nav__link" aria-current="page" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:600;color:#1D4ED8;text-decoration:none;box-shadow:inset 0 -2px 0 #1D4ED8">홈페이지</a></li>
+          <li><a href="../index.html#work" class="pf-nav__link" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:500;color:#0F172A;text-decoration:none">프로필</a></li>
+          <li><a href="../index.html#skills" class="pf-nav__link" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:500;color:#0F172A;text-decoration:none">기술</a></li>
+          <li><a href="../index.html#career" class="pf-nav__link" style="display:inline-flex;align-items:center;min-height:44px;padding:0 14px;font-size:15px;font-weight:500;color:#0F172A;text-decoration:none">경력</a></li>
+        </ul>
+      </nav>
+    </span>
+    <span class="show-mob">
+      <button type="button" class="pf-icon-btn" aria-label="메뉴 열기" aria-expanded="false" data-action="menu" style="width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #DBEAFE;border-radius:8px;background:#FFFFFF;color:#0F172A">
+        <span class="mi-closed">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
+        </span>
+        <span class="mi-open">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+        </span>
+      </button>
+    </span>
+  </div>
+  <div class="mob-menu">
+    <nav aria-label="모바일 메뉴" style="border-top:1px solid #DBEAFE;background:#FFFFFF;padding:8px 16px 20px">
+      <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column">
+        <li><a href="../index.html#about" style="display:flex;align-items:center;min-height:52px;padding:0 4px;border-bottom:1px solid #DBEAFE;font-size:17px;font-weight:500;color:#0F172A;text-decoration:none">소개</a></li>
+        <li><a href="../index.html#projects" style="display:flex;align-items:center;min-height:52px;padding:0 4px;border-bottom:1px solid #DBEAFE;font-size:17px;font-weight:500;color:#0F172A;text-decoration:none">프로젝트</a></li>
+        <li><a href="../index.html#all-projects" aria-current="page" style="display:flex;align-items:center;min-height:52px;padding:0 4px;border-bottom:1px solid #DBEAFE;font-size:17px;font-weight:600;color:#1D4ED8;text-decoration:none">홈페이지</a></li>
+        <li><a href="../index.html#work" style="display:flex;align-items:center;min-height:52px;padding:0 4px;border-bottom:1px solid #DBEAFE;font-size:17px;font-weight:500;color:#0F172A;text-decoration:none">프로필</a></li>
+        <li><a href="../index.html#skills" style="display:flex;align-items:center;min-height:52px;padding:0 4px;border-bottom:1px solid #DBEAFE;font-size:17px;font-weight:500;color:#0F172A;text-decoration:none">기술</a></li>
+        <li><a href="../index.html#career" style="display:flex;align-items:center;min-height:52px;padding:0 4px;font-size:17px;font-weight:500;color:#0F172A;text-decoration:none">경력</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 1. 머리 영역 -->
+  <div style="background:#EFF6FF;border-bottom:1px solid #DBEAFE">
+    <div style="max-width:808px;margin:0 auto;padding:clamp(32px,4vw,56px) clamp(16px,3vw,24px) clamp(32px,4vw,48px)">
+      <a href="../index.html#all-projects" class="pf-link" style="display:inline-flex;align-items:center;gap:6px;min-height:44px;font-size:14px;font-weight:600;color:#1D4ED8;text-decoration:none">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"></path><path d="M11 6l-6 6 6 6"></path></svg>홈페이지 목록</a>
+      <p style="margin:12px 0 0;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">홈페이지 · 10</p>
+      <h1 style="margin:4px 0 0;font-size:clamp(32px,4vw,48px);font-weight:800;line-height:1.25;letter-spacing:-0.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="동화 CNF">동화 CNF</h1>
+      <p style="margin:10px 0 0;font-size:17px;color:#475569">식품 제조 기업의 제품과 비전을 소개하는 기업 사이트</p>
+    </div>
+  </div>
+
+  <!-- 2. 요약 정보 -->
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(28px,3vw,40px) clamp(16px,3vw,24px) 0">
+    <dl style="margin:0;display:flex;flex-wrap:wrap;gap:0;border-top:2px solid #0F172A">
+      <div style="flex:1 1 220px;padding:16px 24px 16px 0;border-bottom:1px solid #DBEAFE"><dt style="font-size:14px;color:#475569">기간</dt><dd style="margin:2px 0 0;font-weight:600">2021년 11월 ~ 2021년 12월</dd></div>
+      <div style="flex:2 1 420px;padding:16px 0;border-bottom:1px solid #DBEAFE"><dt style="font-size:14px;color:#475569">맡은 역할</dt><dd style="margin:2px 0 0;font-weight:600">반응형 퍼블리싱 · 개발 · 관리자 기능</dd></div>
+      <div style="flex:1 1 100%;padding:16px 0;border-bottom:1px solid #DBEAFE"><dt style="font-size:14px;color:#475569">사용 기술</dt>
+        <dd style="margin:8px 0 0"><ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px">
+          <li style="display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#EFF6FF;color:#1D4ED8;font-size:14px;font-weight:500">PHP</li>
+          <li style="display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#EFF6FF;color:#1D4ED8;font-size:14px;font-weight:500">MySQL</li>
+          <li style="display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#EFF6FF;color:#1D4ED8;font-size:14px;font-weight:500">jQuery</li>
+          <li style="display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#EFF6FF;color:#1D4ED8;font-size:14px;font-weight:500">HTML</li>
+          <li style="display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#EFF6FF;color:#1D4ED8;font-size:14px;font-weight:500">CSS</li>
+        </ul></dd></div>
+    </dl>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:20px">
+      <a href="http://donghwacnf.co.kr/" target="_blank" rel="noopener" class="pf-btn--primary" style="display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 20px;border-radius:8px;background:#1D4ED8;color:#FFFFFF;font-size:15px;font-weight:600;text-decoration:none">사이트 열기
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+    </div>
+  </div>
+
+  <!-- 3. 대표 화면 (PC·모바일 미리보기) -->
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(32px,4vw,48px) clamp(16px,3vw,24px) 0">
+    <div data-device="desktop" style="border:1px solid #DBEAFE;border-radius:12px;overflow:hidden;background:#FFFFFF">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 8px 4px 16px;border-bottom:1px solid #DBEAFE">
+        <span style="font-size:13px;font-weight:600;color:#475569;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">DONGHWACNF.CO.KR <span style="font-weight:400">/ LIVE WEB</span></span>
+        <div role="group" aria-label="미리보기 기기" style="display:flex;gap:2px">
+          <span class="dv dv-desktop"><button type="button" aria-label="데스크톱 화면" aria-pressed="true" style="width:44px;height:44px;border:0;border-radius:8px;background:#EFF6FF;color:#1D4ED8;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg></button></span>
+          <span class="dv dvx-desktop"><button type="button" class="pf-icon-btn" aria-label="데스크톱 화면" aria-pressed="false" data-device-set="desktop" style="width:44px;height:44px;border:0;border-radius:8px;background:#FFFFFF;color:#475569;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg></button></span>
+          <span class="dv dv-tablet"><button type="button" aria-label="태블릿 화면" aria-pressed="true" style="width:44px;height:44px;border:0;border-radius:8px;background:#EFF6FF;color:#1D4ED8;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></button></span>
+          <span class="dv dvx-tablet"><button type="button" class="pf-icon-btn" aria-label="태블릿 화면" aria-pressed="false" data-device-set="tablet" style="width:44px;height:44px;border:0;border-radius:8px;background:#FFFFFF;color:#475569;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></button></span>
+          <span class="dv dv-mobile"><button type="button" aria-label="모바일 화면" aria-pressed="true" style="width:44px;height:44px;border:0;border-radius:8px;background:#EFF6FF;color:#1D4ED8;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></button></span>
+          <span class="dv dvx-mobile"><button type="button" class="pf-icon-btn" aria-label="모바일 화면" aria-pressed="false" data-device-set="mobile" style="width:44px;height:44px;border:0;border-radius:8px;background:#FFFFFF;color:#475569;display:inline-flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></button></span>
+        </div>
+      </div>
+      <span class="dv dv-desktop">
+        <div tabindex="0" aria-label="동화 CNF 데스크톱 화면, 스크롤 가능" style="aspect-ratio:4/3;height:auto;overflow-y:auto;background:#EFF6FF"><img src="../images/donghwa-pc.webp" alt="동화 CNF 데스크톱 전체 화면" style="display:block;width:100%"></div>
+      </span>
+      <span class="dv dv-tablet">
+        <div style="background:#EFF6FF;display:flex;justify-content:center;padding:24px 16px"><div tabindex="0" aria-label="동화 CNF 태블릿 화면, 스크롤 가능" style="width:min(100%,500px);aspect-ratio:500/660;height:auto;border:10px solid #0F172A;border-radius:22px;overflow-y:auto;background:#FFFFFF"><img src="../images/donghwa-tablet.webp" alt="동화 CNF 태블릿 전체 화면" style="display:block;width:100%"></div></div>
+      </span>
+      <span class="dv dv-mobile">
+        <div style="background:#EFF6FF;display:flex;justify-content:center;padding:24px 16px"><div tabindex="0" aria-label="동화 CNF 모바일 화면, 스크롤 가능" style="width:min(100%,300px);aspect-ratio:300/631;height:auto;border:8px solid #0F172A;border-radius:28px;overflow-y:auto;background:#FFFFFF"><img src="../images/donghwa-mobile.webp" alt="동화 CNF 모바일 전체 화면" style="display:block;width:100%"></div></div>
+      </span>
+    </div>
+    <p style="margin:10px 0 0;font-size:14px;color:#475569">미리보기 안을 스크롤하면 페이지 전체를 볼 수 있습니다. 오른쪽 위 아이콘으로 태블릿·모바일 화면으로 바꿀 수 있습니다.</p>
+  </div>
+
+  <!-- 4~7. 본문 -->
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(48px,6vw,72px) clamp(16px,3vw,24px) 0;display:flex;flex-direction:column;gap:clamp(40px,5vw,56px)">
+    <section aria-labelledby="d-overview">
+      <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">01</p>
+      <h2 id="d-overview" style="margin:0;font-size:clamp(22px,2.2vw,26px);font-weight:700;line-height:1.4;letter-spacing:-0.02em">개요</h2>
+      <p style="margin:12px 0 0;color:#475569">식품 제조 기업의 제품과 비전을 소개하는 기업 사이트입니다. 메인과 서브페이지를 PC·태블릿·모바일에 맞춘 반응형으로 퍼블리싱하고, 게시판과 관리자 기능을 개발해 오픈 이후에도 담당자가 콘텐츠를 직접 관리할 수 있게 했습니다.</p>
+    </section>
+    <section aria-labelledby="d-work">
+      <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">02</p>
+      <h2 id="d-work" style="margin:0;font-size:clamp(22px,2.2vw,26px);font-weight:700;line-height:1.4;letter-spacing:-0.02em">담당 작업</h2>
+      <div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px">
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">화면 · 퍼블리싱</p>
+          <ul style="margin:8px 0 0;padding-left:18px;font-size:15px;color:#0F172A;line-height:1.7">
+            <li>메인·서브페이지 반응형 퍼블리싱</li>
+            <li>PC·태블릿·모바일 화면 대응</li>
+          </ul>
+        </div>
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">콘텐츠 · 기능</p>
+          <ul style="margin:8px 0 0;padding-left:18px;font-size:15px;color:#0F172A;line-height:1.7">
+            <li>제품(PRODUCTS) 소개 페이지 개발</li>
+            <li>회사 비전·제조 공정 소개 페이지 개발</li>
+          </ul>
+        </div>
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">관리자 · 게시판</p>
+          <ul style="margin:8px 0 0;padding-left:18px;font-size:15px;color:#0F172A;line-height:1.7">
+            <li>공지·소식 게시판 기능 개발</li>
+            <li>관리자 페이지에서 콘텐츠 등록·수정</li>
+          </ul>
+        </div>
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">품질 · 오픈</p>
+          <ul style="margin:8px 0 0;padding-left:18px;font-size:15px;color:#0F172A;line-height:1.7">
+            <li>브라우저·기기별 테스트 및 오류 수정</li>
+            <li>운영 서버 적용 및 오픈 지원</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section aria-labelledby="d-problem">
+      <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">03</p>
+      <h2 id="d-problem" style="margin:0;font-size:clamp(22px,2.2vw,26px);font-weight:700;line-height:1.4;letter-spacing:-0.02em">문제와 해결</h2>
+      <div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">문제</p>
+          <p style="margin:6px 0 0;font-size:15px;color:#0F172A">제품과 기술 소개 콘텐츠가 많아 PC와 모바일 모두에서 정보를 한눈에 보기 어렵고, 오픈 후에도 담당자가 콘텐츠를 직접 바꾸기 어려운 구조였습니다.</p>
+        </div>
+        <div style="background:#EFF6FF;border-radius:12px;padding:20px">
+          <p style="margin:0;font-size:14px;font-weight:700;color:#1D4ED8">해결</p>
+          <p style="margin:6px 0 0;font-size:15px;color:#0F172A">섹션 단위의 반응형 레이아웃으로 화면 크기에 맞게 콘텐츠를 다시 배치하고, 관리자 페이지와 게시판으로 담당자가 소식과 자료를 직접 등록·수정할 수 있게 했습니다.</p>
+        </div>
+      </div>
+    </section>
+    <section aria-labelledby="d-result">
+      <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">04</p>
+      <h2 id="d-result" style="margin:0;font-size:clamp(22px,2.2vw,26px);font-weight:700;line-height:1.4;letter-spacing:-0.02em">성과</h2>
+      <p style="margin:12px 0 0;color:#475569">식품 제조 기업의 제품과 비전을 소개하는 반응형 기업 사이트 구축했습니다.</p>
+    </section>
+  </div>
+
+  <!-- 8. 화면 모음 -->
+  <section aria-labelledby="d-screens" style="max-width:1280px;margin:0 auto;padding:clamp(48px,6vw,72px) clamp(16px,3vw,24px) 0">
+    <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.08em;color:#1D4ED8">05</p>
+    <h2 id="d-screens" style="margin:0 0 20px;font-size:clamp(22px,2.2vw,26px);font-weight:700;line-height:1.4;letter-spacing:-0.02em">화면 모음</h2>
+    <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;align-items:start">
+      <li><figure style="margin:0"><img src="../images/donghwa-screen-1.webp" alt="동화 CNF 화면: 공장안내" loading="lazy" style="display:block;width:100%;aspect-ratio:1779/1178;object-fit:cover;object-position:top;border:1px solid #DBEAFE;border-radius:12px"><figcaption style="margin-top:8px;font-size:14px;color:#475569">공장안내</figcaption></figure></li>
+      <li><figure style="margin:0"><img src="../images/donghwa-screen-2.webp" alt="동화 CNF 화면: 회사소개 · 인사말" loading="lazy" style="display:block;width:100%;aspect-ratio:1779/1178;object-fit:cover;object-position:top;border:1px solid #DBEAFE;border-radius:12px"><figcaption style="margin-top:8px;font-size:14px;color:#475569">회사소개 · 인사말</figcaption></figure></li>
+      <li><figure style="margin:0"><img src="../images/donghwa-screen-3.webp" alt="동화 CNF 화면: 제품소개 · 쌀대롱 시리즈" loading="lazy" style="display:block;width:100%;aspect-ratio:1779/1178;object-fit:cover;object-position:top;border:1px solid #DBEAFE;border-radius:12px"><figcaption style="margin-top:8px;font-size:14px;color:#475569">제품소개 · 쌀대롱 시리즈</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <!-- 9. 하단 이동 -->
+  <nav aria-label="다른 프로젝트" style="max-width:1280px;margin:0 auto;padding:clamp(56px,7vw,80px) clamp(16px,3vw,24px) clamp(64px,8vw,96px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;border-top:2px solid #0F172A;padding-top:24px">
+      <a href="tinylove.html" class="pf-card" style="display:flex;flex-direction:column;gap:2px;padding:18px 20px;border:1px solid #DBEAFE;border-radius:12px;text-decoration:none;color:#0F172A;min-width:0">
+        <span style="font-size:13px;color:#475569">← 이전 홈페이지</span><span style="max-width:100%;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">mbaby</span></a>
+      <a href="../index.html#all-projects" class="pf-btn--secondary" style="display:flex;align-items:center;justify-content:center;gap:6px;padding:18px 20px;border:1px solid #1D4ED8;border-radius:12px;text-decoration:none;color:#1D4ED8;font-weight:600;background:#FFFFFF">홈페이지 목록</a>
+      <a href="hsmind.html" class="pf-card" style="display:flex;flex-direction:column;align-items:flex-end;gap:2px;padding:18px 20px;border:1px solid #DBEAFE;border-radius:12px;text-decoration:none;color:#0F172A;text-align:right;min-width:0">
+        <span style="font-size:13px;color:#475569">다음 홈페이지 →</span><span style="max-width:100%;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">화성시 아동청소년 정신건강복지센터</span></a>
+    </div>
+  </nav>
+</main>
+
+<footer style="border-top:1px solid #DBEAFE;background:#FFFFFF">
+  <div style="max-width:1280px;margin:0 auto;padding:20px clamp(16px,3vw,24px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:14px;color:#475569">
+    <p style="margin:0">© 2026 든든한웹전문가 형준. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>

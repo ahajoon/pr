@@ -1,0 +1,55 @@
+/* =========================================================
+   든든한웹전문가 형준 포트폴리오 — 공통 스타일
+   화면 기준: 모바일 < 768px ≤ 태블릿 < 1024px ≤ PC
+   ========================================================= */
+html{scroll-behavior:smooth}
+body{margin:0;background:#FFFFFF}
+a{color:#1D4ED8}a:hover{color:#1E40AF}
+img{max-width:100%}
+.pf,.pf *{box-sizing:border-box}
+.pf{font-family:"Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;word-break:keep-all;-webkit-font-smoothing:antialiased}
+.pf a,.pf button{transition:background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease}
+.pf button{font-family:inherit;cursor:pointer}
+.pf :focus-visible{outline:2px solid #1D4ED8;outline-offset:2px}
+.pf .pf-on-blue :focus-visible{outline-color:#FFFFFF}
+
+/* hover */
+.pf-btn--primary:hover{background:#1E40AF !important}
+.pf-btn--secondary:hover,.pf-btn--white:hover,.pf-icon-btn:hover{background:#EFF6FF !important}
+.pf-nav__link:hover{color:#1D4ED8 !important}
+.pf-link:hover{color:#1E40AF !important}
+.pf-link-white:hover{color:#DBEAFE !important}
+.pf-card:hover{box-shadow:0 8px 24px rgba(15,23,42,.08)}
+.pf-top-btn:hover{background:#1D4ED8 !important;color:#FFFFFF !important}
+.pf-list__item:hover{background:#EFF6FF !important}
+.pf-chip:hover{border-color:#1D4ED8 !important}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pf *{transition:none !important}}
+
+/* ---------- 화면 폭에 따라 보이기/숨기기 ---------- */
+.show-desk,.show-wide{display:contents}
+.show-mob,.show-narrow{display:none}
+@media (max-width:1023.98px){.show-wide{display:none}.show-narrow{display:contents}}
+@media (max-width:767.98px){.show-desk{display:none}.show-mob{display:contents}}
+
+/* ---------- 모바일 메뉴 ---------- */
+.mi-closed{display:contents}.mi-open{display:none}
+.menu-open .mi-closed{display:none}.menu-open .mi-open{display:contents}
+.mob-menu{display:none}
+@media (max-width:767.98px){.menu-open .mob-menu{display:block}}
+
+/* ---------- 선택 상태(메뉴 활성, 프로젝트 선택) ---------- */
+.sw-off{display:contents}.sw-on{display:none}
+.is-on>.sw-on{display:contents}.is-on>.sw-off{display:none}
+
+/* ---------- 슬라이드 / 프로젝트 패널 ---------- */
+.slide{display:none}.slide.is-cur{display:block}
+.panel{display:none}.panel.is-cur{display:block}
+
+/* ---------- PC·태블릿·모바일 미리보기 ---------- */
+.dv{display:contents}
+[data-device]:not([data-device="desktop"]) .dv-desktop,
+[data-device]:not([data-device="tablet"]) .dv-tablet,
+[data-device]:not([data-device="mobile"]) .dv-mobile,
+[data-device="desktop"] .dvx-desktop,
+[data-device="tablet"] .dvx-tablet,
+[data-device="mobile"] .dvx-mobile{display:none}
