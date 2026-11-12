@@ -44,6 +44,7 @@ img{max-width:100%}
 /* ---------- 슬라이드 / 프로젝트 패널 ---------- */
 .slide{display:none}.slide.is-cur{display:block}
 .panel{display:none}.panel.is-cur{display:block}
+.panel.is-cur{display:flex;flex-direction:column}.panel .pv-box{order:-2;margin-top:0 !important}.panel .pv-hint{order:-1;margin:10px 0 24px !important}
 
 /* ---------- PC·태블릿·모바일 미리보기 ---------- */
 .dv{display:contents}
